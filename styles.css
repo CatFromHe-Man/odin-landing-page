@@ -38,15 +38,17 @@ ul {
     flex-direction: column;
     padding-left: 400px;
     padding-right: 400px;
-    padding-bottom: 200px;
+    padding-bottom: 100px;
     padding-top: 16px;
+
 
 }
 
 .headertop {
     display: flex;
     justify-content: space-between;
-    padding-bottom: 200px;
+    align-items: center;
+    padding-bottom: 100px;
 }
 
 .titlelinks {
@@ -57,8 +59,8 @@ ul {
 }
 
 .title {
-    font-size: 24px;
-    color: #f9faf8;
+    height: 50px;
+    border-radius: 4px;
 }
 
 .headercontent {
@@ -91,24 +93,25 @@ ul {
 
 .imagebox {
     display: flex;
-    min-width: 1200px;
-    min-height: 200px;
-    background-color: lightgrey;
+    height: 300px;
+    width: 1200px;
     margin-left: auto;
     justify-content: center;
     align-items: center;
+    border-radius: 4px;
 }
 
 
 /* Tiles */
 
 .tiles {
-    /* background-color: #f9faf8; */
-    background-color: blueviolet;
+    background-color: #f9faf8;
     padding-left: 400px;
     padding-right: 400px;
     display: flex;
     justify-content: space-around;
+    align-items: center;
+    padding-bottom: 100px;
 }
 
 .dtile {
@@ -117,6 +120,7 @@ ul {
     border-radius: 4px;
     border-style: solid;
     border-color: #3882f6;
+    border-width: thick;
 }
 
 .donut {
@@ -124,4 +128,21 @@ ul {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    gap: 8px;
+}
+
+.tiles.test {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    font-size: 36px;
+    font-weight: 800;
+    color: #1f2937
+
+}
+
+.donuttext {
+    max-width: 200px;
+    text-align: center;
 }
