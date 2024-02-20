@@ -163,4 +163,14 @@ ul {
     color: #1f2937;
 }
 
+.quote.name {
+    text-align: right;
+}
+
+.testing {
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    gap: 8px;
+}
 
