@@ -7,6 +7,10 @@ button {
     padding: 8px 24px;
 }
 
+p {
+    margin: 0px;
+    padding: 0px;
+ }
 
 
 body {
@@ -123,13 +127,7 @@ ul {
     border-width: thick;
 }
 
-.donut {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 8px;
-}
+
 
 .tiles.test {
     padding-top: 50px;
@@ -146,3 +144,23 @@ ul {
     max-width: 200px;
     text-align: center;
 }
+
+/* Quote */
+
+
+.quotesection {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    padding-left: 400px;
+    padding-right: 400px;
+    align-items: center;
+}
+
+.quote {
+    font-size: 36px;
+    font-family: light italic;
+    color: #1f2937;
+}
+
+
