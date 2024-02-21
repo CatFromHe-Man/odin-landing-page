@@ -1,4 +1,4 @@
-button {
+.signup {
     max-width: 100px;
     color: #f9faf8;
     background-color: #3882f6;
@@ -172,5 +172,55 @@ ul {
     flex-direction: column;
     max-width: 100%;
     gap: 8px;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
+
+
+/* Modal */
+
+.modal {
+    display: flex;
+    padding-left: 400px;
+    padding-right: 400px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    justify-content: center;
+    background-color: #f9faf8;
+}
+
+
+.align {
+    display: flex;
+    background-color: #3882f6;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width: 100%;
+    justify-content: center;
+    gap: 100px;
+    align-items: center;
+    border-radius: 4px;
+
+}
+
+.text {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+.secondtext {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.actionb {
+    max-width: 100px;
+    color: #f9faf8;
+    background-color: #3882f6;
+    border: 2px solid;
+    border-color: #f9faf8;
+    border-radius: 4px;
+    padding: 8px 24px;
+}
+
 
