@@ -90,10 +90,7 @@ ul {
     max-width: 440px;
 }
 
-.footer {
-    margin-top: auto;
-    background-color: #1f2937;
-}
+
 
 .imagebox {
     display: flex;
@@ -224,3 +221,16 @@ ul {
 }
 
 
+.footer {
+    display: flex;
+    margin-top: auto;
+    background-color: #1f2937;
+    justify-content: center;
+    padding-left: 400px;
+    padding-right: 400px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    color: #f9faf8;
+    font-size: 18px;
+    
+}
